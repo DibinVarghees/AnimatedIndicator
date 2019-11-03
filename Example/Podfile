@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnimatedIndicator_Example' do
+  pod 'AnimatedIndicator', :path => '../'
+
+  target 'AnimatedIndicator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
