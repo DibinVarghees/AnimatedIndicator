@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0AD1C2312B27A61C7171DDEB /* Pods_AnimatedIndicator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedIndicator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4153B9959F726EBE0FB0FBF1 /* Pods-AnimatedIndicator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedIndicator_Example.debug.xcconfig"; path = "Target Support Files/Pods-AnimatedIndicator_Example/Pods-AnimatedIndicator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		548D127E0DFB0CFC6A7F74E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		57E41F3E062A16D50E89EEBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		548D127E0DFB0CFC6A7F74E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57E41F3E062A16D50E89EEBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AnimatedIndicator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedIndicator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		ABF2AF671E5705FEC6858A40 /* Pods-AnimatedIndicator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedIndicator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AnimatedIndicator_Tests/Pods-AnimatedIndicator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B503A8C3E37DB91925C1FCEE /* Pods-AnimatedIndicator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedIndicator_Example.release.xcconfig"; path = "Target Support Files/Pods-AnimatedIndicator_Example/Pods-AnimatedIndicator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C85939D2BAA5D802C7A164F6 /* Pods_AnimatedIndicator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedIndicator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4B9BDC8E11D30659EC6D3E5 /* AnimatedIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnimatedIndicator.podspec; path = ../AnimatedIndicator.podspec; sourceTree = "<group>"; };
+		D4B9BDC8E11D30659EC6D3E5 /* AnimatedIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimatedIndicator.podspec; path = ../AnimatedIndicator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8A7FCFD7A302E7043451341 /* Pods-AnimatedIndicator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedIndicator_Tests.release.xcconfig"; path = "Target Support Files/Pods-AnimatedIndicator_Tests/Pods-AnimatedIndicator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				ABF2AF671E5705FEC6858A40 /* Pods-AnimatedIndicator_Tests.debug.xcconfig */,
 				E8A7FCFD7A302E7043451341 /* Pods-AnimatedIndicator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

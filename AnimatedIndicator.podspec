@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AnimatedIndicator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AnimatedIndicator.'
+  s.summary          = 'A custom indicator for iOS apps.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A UIView based loading indicator with showing & hiding functionality
                        DESC
 
   s.homepage         = 'https://github.com/DibinVarghees/AnimatedIndicator'
@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'AnimatedIndicator/Classes/**/*'
   
+   s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'AnimatedIndicator' => ['AnimatedIndicator/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
