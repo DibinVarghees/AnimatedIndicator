@@ -1,0 +1,22 @@
+{
+  "name": "AnimatedIndicator",
+  "version": "0.1.0",
+  "summary": "A short description of AnimatedIndicator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DibinVarghees/AnimatedIndicator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DibinVarghees": "dibinpv1990@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/DibinVarghees/AnimatedIndicator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AnimatedIndicator/Classes/**/*"
+}

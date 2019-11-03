@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedIndicator (0.1.0)
+
+DEPENDENCIES:
+  - AnimatedIndicator (from `../`)
+
+EXTERNAL SOURCES:
+  AnimatedIndicator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimatedIndicator: 58531ba52820a79956d397810c3f7d80e67c62bd
+
+PODFILE CHECKSUM: b93bf2a289b0dc13cc7d6bc6c2c41ffec969c914
+
+COCOAPODS: 1.8.4

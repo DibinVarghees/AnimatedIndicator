@@ -1,0 +1,6 @@
+framework module AnimatedIndicator {
+  umbrella header "AnimatedIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}
