@@ -35,7 +35,7 @@ class AnimationView: UIView {
         
         shapelayer.fillColor = UIColor.clear.cgColor
         
-        shapelayer.lineCap = CAShapeLayerLineCap.round
+        shapelayer.lineCap = kCALineCapRound
         
         shapelayer.position = self.center
         
@@ -51,7 +51,7 @@ class AnimationView: UIView {
         
         basicAnimation.duration = 2
         
-        basicAnimation.fillMode = CAMediaTimingFillMode.forwards
+        basicAnimation.fillMode = kCAFillModeForwards
         
         basicAnimation.isRemovedOnCompletion = false
         
@@ -76,7 +76,7 @@ class AnimationView: UIView {
         trackLayer.strokeColor = UIColor.gray.cgColor
         trackLayer.lineWidth = 10
         trackLayer.fillColor =  UIColor.clear.cgColor
-        trackLayer.lineCap = CAShapeLayerLineCap.round
+        trackLayer.lineCap = kCALineCapRound
         trackLayer.position = self.center
         self.layer.addSublayer(trackLayer)
         
